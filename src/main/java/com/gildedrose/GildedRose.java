@@ -1,6 +1,10 @@
 package com.gildedrose;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class GildedRose {
+    final static Logger logger = LoggerFactory.getLogger(GildedRose.class);
     Item[] items;
 
     public GildedRose(Item[] items) {
@@ -19,7 +23,8 @@ public class GildedRose {
             } else {
                 if (items[i].quality < 50) {
                     items[i].quality = items[i].quality + 1;
-
+                    logger.info("fromage vide");
+                    
                     if (items[i].name.equals("Backstage passes to a TAFKAL80ETC concert")) {
                         if (items[i].sellIn < 11) {
                             if (items[i].quality < 50) {
