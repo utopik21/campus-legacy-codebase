@@ -49,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gildedrose/GildedRoseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="60" column="39" lean-forward="true" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+            <state relative-caret-position="246">
+              <caret line="61" column="50" lean-forward="true" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -294,20 +294,11 @@
       <option name="presentableId" value="Default" />
       <updated>1572856721372</updated>
       <workItem from="1572856724132" duration="13677000" />
-      <workItem from="1572939171616" duration="5624000" />
+      <workItem from="1572939171616" duration="6256000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GildedRoseTest_shouldIncreaseTwiceAgedBrieQuality - 2019.11.05 at 10h 25m 16s.xml">
-      <configuration name="GildedRoseTest.shouldIncreaseTwiceAgedBrieQuality" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GildedRoseTest_sulfuraShouldNeverChange - 2019.11.05 at 10h 25m 20s.xml">
-      <configuration name="GildedRoseTest.sulfuraShouldNeverChange" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GildedRoseTest_backstageShouldIncreaseByOne - 2019.11.05 at 10h 25m 24s.xml">
-      <configuration name="GildedRoseTest.backstageShouldIncreaseByOne" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GildedRoseTest_backstageShouldIncreaseByThree - 2019.11.05 at 10h 25m 33s.xml">
       <configuration name="GildedRoseTest.backstageShouldIncreaseByThree" configurationId="JUnit" />
     </history-entry>
@@ -329,9 +320,18 @@
     <history-entry file="GildedRoseTest_shouldIncreaseTwiceAgedBrieQuality - 2019.11.05 at 11h 09m 26s.xml">
       <configuration name="GildedRoseTest.shouldIncreaseTwiceAgedBrieQuality" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GildedRoseTest_shouldIncreaseTwiceAgedBrieQuality - 2019.11.05 at 11h 09m 37s.xml">
+      <configuration name="GildedRoseTest.shouldIncreaseTwiceAgedBrieQuality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GildedRoseTest_shouldIncreaseQualityAgedBrie - 2019.11.05 at 11h 30m 12s.xml">
+      <configuration name="GildedRoseTest.shouldIncreaseQualityAgedBrie" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GildedRoseTest_shouldIncreaseQualityAgedBrie - 2019.11.05 at 11h 30m 23s.xml">
+      <configuration name="GildedRoseTest.shouldIncreaseQualityAgedBrie" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19301000" />
+    <option name="totallyTimeSpent" value="19933000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -423,8 +423,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gildedrose/GildedRoseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="60" column="39" lean-forward="true" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+        <state relative-caret-position="246">
+          <caret line="61" column="50" lean-forward="true" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

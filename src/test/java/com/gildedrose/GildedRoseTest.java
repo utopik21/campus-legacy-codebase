@@ -1,5 +1,6 @@
 package com.gildedrose;
 
+import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -40,8 +41,8 @@ public class GildedRoseTest {
 
     @Test
     void shouldIncreaseQualityAgedBrie() {
-        Item item = new Item("Aged Brie Increase", 10, 10);
-        Item item2 = new Item("Aged Brie Increase", 1, 12);
+        Item item = new Item("Aged Brie", 10, 10);
+        Item item2 = new Item("Aged Brie", 1, 12);
         GildedRose gildedRose = new GildedRose( new Item[]{item, item2} );
         gildedRose.updateQuality();
         assertThat(item.quality).isEqualTo(11);
