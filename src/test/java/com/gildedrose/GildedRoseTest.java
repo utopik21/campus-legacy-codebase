@@ -140,8 +140,8 @@ public class GildedRoseTest {
 
     @Test
     void agingRedWineQualityShouldBeStable() {
-        Item item = new Item("Aging Red Wine", 10, 30);
-        Item item2 = new Item("Aging Red Wine", 1, 30);
+        Item item = new Item("Red red wine", 10, 30);
+        Item item2 = new Item("Red red wine", 1, 30);
         GildedRose gildedRose = new GildedRose( new Item[]{item, item2} );
         gildedRose.updateQuality();
         assertThat(item.quality).isEqualTo(30);
@@ -150,8 +150,8 @@ public class GildedRoseTest {
 
     @Test
     void agingRedWineQualityIncreaseByOneWhenExpired() {
-        Item item = new Item("Aging Red Wine", 0, 30);
-        Item item2 = new Item("Aging Red Wine", -99, 30);
+        Item item = new Item("Red red wine", 0, 30);
+        Item item2 = new Item("Red red wine", -99, 30);
         GildedRose gildedRose = new GildedRose( new Item[]{item, item2} );
         gildedRose.updateQuality();
         assertThat(item.quality).isEqualTo(31);
@@ -160,8 +160,8 @@ public class GildedRoseTest {
 
     @Test
     void agingRedWineQualityShouldDecreaseByOneWhenSellInBelowMinorOneHundred(){
-        Item item = new Item("Aging Red Wine", -100, 30);
-        Item item2 = new Item("Aging Red Wine", -110, 30);
+        Item item = new Item("Red red wine", -100, 30);
+        Item item2 = new Item("Red red wine", -110, 30);
         GildedRose gildedRose = new GildedRose( new Item[]{item, item2} );
         gildedRose.updateQuality();
         assertThat(item.quality).isEqualTo(29);
