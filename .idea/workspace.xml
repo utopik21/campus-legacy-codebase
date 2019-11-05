@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab0589ac-f5cb-4493-9562-3b1a464ba0c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gildedrose/GildedRoseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gildedrose/GildedRoseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gildedrose/GildedRose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gildedrose/GildedRose.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,17 +17,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gildedrose/GildedRose.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+            <state relative-caret-position="493">
+              <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#2909#2910#0" expanded="true" />
+                <element signature="e#2937#2938#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gildedrose/GildedRoseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="61" column="50" lean-forward="true" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
+            <state relative-caret-position="171">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,9 +90,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gildedrose/test" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/gildedrose/TexttestFixture.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gildedrose/GildedRose.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gildedrose/Item.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gildedrose/GildedRoseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gildedrose/GildedRose.java" />
       </list>
     </option>
   </component>
@@ -192,8 +194,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GildedRoseTest.shouldIncreaseTwiceAgedBrieQuality">
-    <configuration name="GildedRoseTest.agingRedWineQualityIncreaseByOneWhenExpired" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GildedRoseTest">
+    <configuration name="GildedRoseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="business-logic" />
       <extension name="coverage">
         <pattern>
@@ -203,13 +205,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.gildedrose" />
       <option name="MAIN_CLASS_NAME" value="com.gildedrose.GildedRoseTest" />
-      <option name="METHOD_NAME" value="agingRedWineQualityIncreaseByOneWhenExpired" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GildedRoseTest.backstageQualityDropsToZeroWhenExpired" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="business-logic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gildedrose.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gildedrose" />
+      <option name="MAIN_CLASS_NAME" value="com.gildedrose.GildedRoseTest" />
+      <option name="METHOD_NAME" value="backstageQualityDropsToZeroWhenExpired" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GildedRoseTest.agingRedWineQualityShouldDecreaseByOneWhenSellInBelowMinorOneHundred" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GildedRoseTest.backstageShouldIncreaseByThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="business-logic" />
       <extension name="coverage">
         <pattern>
@@ -219,13 +236,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.gildedrose" />
       <option name="MAIN_CLASS_NAME" value="com.gildedrose.GildedRoseTest" />
-      <option name="METHOD_NAME" value="agingRedWineQualityShouldDecreaseByOneWhenSellInBelowMinorOneHundred" />
+      <option name="METHOD_NAME" value="backstageShouldIncreaseByThree" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GildedRoseTest.shouldDecreaseItemSellInByOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GildedRoseTest.conjuredQualityDecreaseTwiceAsFastAsDefault" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="business-logic" />
       <extension name="coverage">
         <pattern>
@@ -235,13 +252,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.gildedrose" />
       <option name="MAIN_CLASS_NAME" value="com.gildedrose.GildedRoseTest" />
-      <option name="METHOD_NAME" value="shouldDecreaseItemSellInByOne" />
+      <option name="METHOD_NAME" value="conjuredQualityDecreaseTwiceAsFastAsDefault" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GildedRoseTest.shouldIncreaseQualityAgedBrie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GildedRoseTest.conjuredThingsQualityDecreaseTwiceAsFastAsDefault" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="business-logic" />
       <extension name="coverage">
         <pattern>
@@ -251,23 +268,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.gildedrose" />
       <option name="MAIN_CLASS_NAME" value="com.gildedrose.GildedRoseTest" />
-      <option name="METHOD_NAME" value="shouldIncreaseQualityAgedBrie" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GildedRoseTest.shouldIncreaseTwiceAgedBrieQuality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="business-logic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gildedrose.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gildedrose" />
-      <option name="MAIN_CLASS_NAME" value="com.gildedrose.GildedRoseTest" />
-      <option name="METHOD_NAME" value="shouldIncreaseTwiceAgedBrieQuality" />
+      <option name="METHOD_NAME" value="conjuredThingsQualityDecreaseTwiceAsFastAsDefault" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -275,11 +276,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GildedRoseTest.shouldIncreaseTwiceAgedBrieQuality" />
-        <item itemvalue="JUnit.GildedRoseTest.shouldIncreaseQualityAgedBrie" />
-        <item itemvalue="JUnit.GildedRoseTest.shouldDecreaseItemSellInByOne" />
-        <item itemvalue="JUnit.GildedRoseTest.agingRedWineQualityShouldDecreaseByOneWhenSellInBelowMinorOneHundred" />
-        <item itemvalue="JUnit.GildedRoseTest.agingRedWineQualityIncreaseByOneWhenExpired" />
+        <item itemvalue="JUnit.GildedRoseTest" />
+        <item itemvalue="JUnit.GildedRoseTest.conjuredThingsQualityDecreaseTwiceAsFastAsDefault" />
+        <item itemvalue="JUnit.GildedRoseTest.conjuredQualityDecreaseTwiceAsFastAsDefault" />
+        <item itemvalue="JUnit.GildedRoseTest.backstageQualityDropsToZeroWhenExpired" />
+        <item itemvalue="JUnit.GildedRoseTest.backstageShouldIncreaseByThree" />
       </list>
     </recent_temporary>
   </component>
@@ -294,44 +295,44 @@
       <option name="presentableId" value="Default" />
       <updated>1572856721372</updated>
       <workItem from="1572856724132" duration="13677000" />
-      <workItem from="1572939171616" duration="6256000" />
+      <workItem from="1572939171616" duration="6999000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GildedRoseTest_backstageShouldIncreaseByThree - 2019.11.05 at 10h 25m 33s.xml">
+    <history-entry file="GildedRoseTest_shouldIncreaseTwiceAgedBrieQuality - 2019.11.05 at 11h 31m 34s.xml">
+      <configuration name="GildedRoseTest.shouldIncreaseTwiceAgedBrieQuality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GildedRoseTest_sulfuraShouldNeverChange - 2019.11.05 at 11h 31m 37s.xml">
+      <configuration name="GildedRoseTest.sulfuraShouldNeverChange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GildedRoseTest_backstageShouldIncreaseByOne - 2019.11.05 at 11h 31m 40s.xml">
+      <configuration name="GildedRoseTest.backstageShouldIncreaseByOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GildedRoseTest_backstageShouldIncreaseByOne - 2019.11.05 at 11h 31m 46s.xml">
+      <configuration name="GildedRoseTest.backstageShouldIncreaseByOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GildedRoseTest_backstageShouldIncreaseByTwo - 2019.11.05 at 11h 31m 48s.xml">
+      <configuration name="GildedRoseTest.backstageShouldIncreaseByTwo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GildedRoseTest_backstageShouldIncreaseByThree - 2019.11.05 at 11h 31m 52s.xml">
       <configuration name="GildedRoseTest.backstageShouldIncreaseByThree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GildedRoseTest_agingRedWineQualityIncreaseByOneWhenExpired - 2019.11.05 at 10h 25m 46s.xml">
-      <configuration name="GildedRoseTest.agingRedWineQualityIncreaseByOneWhenExpired" configurationId="JUnit" />
+    <history-entry file="GildedRoseTest_backstageQualityDropsToZeroWhenExpired - 2019.11.05 at 11h 31m 54s.xml">
+      <configuration name="GildedRoseTest.backstageQualityDropsToZeroWhenExpired" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GildedRoseTest_agingRedWineQualityShouldDecreaseByOneWhenSellInBelowMinorOneHundred - 2019.11.05 at 10h 25m 54s.xml">
-      <configuration name="GildedRoseTest.agingRedWineQualityShouldDecreaseByOneWhenSellInBelowMinorOneHundred" configurationId="JUnit" />
+    <history-entry file="GildedRoseTest_conjuredQualityDecreaseTwiceAsFastAsDefault - 2019.11.05 at 11h 31m 57s.xml">
+      <configuration name="GildedRoseTest.conjuredQualityDecreaseTwiceAsFastAsDefault" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GildedRoseTest_shouldDecreaseItemSellInByOne - 2019.11.05 at 11h 08m 32s.xml">
-      <configuration name="GildedRoseTest.shouldDecreaseItemSellInByOne" configurationId="JUnit" />
+    <history-entry file="GildedRoseTest_conjuredThingsQualityDecreaseTwiceAsFastAsDefault - 2019.11.05 at 11h 32m 00s.xml">
+      <configuration name="GildedRoseTest.conjuredThingsQualityDecreaseTwiceAsFastAsDefault" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GildedRoseTest_shouldIncreaseQualityAgedBrie - 2019.11.05 at 11h 08m 45s.xml">
-      <configuration name="GildedRoseTest.shouldIncreaseQualityAgedBrie" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GildedRoseTest_shouldIncreaseQualityAgedBrie - 2019.11.05 at 11h 09m 11s.xml">
-      <configuration name="GildedRoseTest.shouldIncreaseQualityAgedBrie" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GildedRoseTest_shouldIncreaseTwiceAgedBrieQuality - 2019.11.05 at 11h 09m 26s.xml">
-      <configuration name="GildedRoseTest.shouldIncreaseTwiceAgedBrieQuality" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GildedRoseTest_shouldIncreaseTwiceAgedBrieQuality - 2019.11.05 at 11h 09m 37s.xml">
-      <configuration name="GildedRoseTest.shouldIncreaseTwiceAgedBrieQuality" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GildedRoseTest_shouldIncreaseQualityAgedBrie - 2019.11.05 at 11h 30m 12s.xml">
-      <configuration name="GildedRoseTest.shouldIncreaseQualityAgedBrie" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GildedRoseTest_shouldIncreaseQualityAgedBrie - 2019.11.05 at 11h 30m 23s.xml">
-      <configuration name="GildedRoseTest.shouldIncreaseQualityAgedBrie" configurationId="JUnit" />
+    <history-entry file="GildedRoseTest - 2019.11.05 at 11h 32m 42s.xml">
+      <configuration name="GildedRoseTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19933000" />
+    <option name="totallyTimeSpent" value="20676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -347,7 +348,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944915" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38241526" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993644" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -396,20 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gildedrose/GildedRose.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gildedrose/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -423,10 +410,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gildedrose/GildedRoseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="61" column="50" lean-forward="true" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
+        <state relative-caret-position="171">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gildedrose/GildedRose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#2909#2910#0" expanded="true" />
+            <element signature="e#2937#2938#0" expanded="true" />
           </folding>
         </state>
       </provider>
