@@ -13,7 +13,7 @@ public class GildedRose {
         this.items = items;
     }
 
-    /*
+
     public void updateQuality() {
         for (Item item : items) {
             if (!item.name.equals("Sulfuras, Hand of Ragnaros")) {
@@ -23,7 +23,7 @@ public class GildedRose {
             }
         }
     }
-*/
+
     public int SellIn(Item item) {
         return item.sellIn--;
     }
