@@ -14,8 +14,8 @@ public class Item {
         this.quality = quality;
     }
 
-   @Override
-   public String toString() {
+    @Override
+    public String toString() {
         return this.name + ", " + this.sellIn + ", " + this.quality;
     }
     public void decreaseQuality() {
@@ -28,6 +28,10 @@ public class Item {
         if (this.quality < 50) {
             this.quality++;
         }
+    }
+
+    public void increaseQualityWine() {
+        this.quality++;
     }
 
     public void defaultMethod() {
@@ -63,15 +67,12 @@ public class Item {
         this.defaultMethod();
     }
 
-
-
     public void agingRedWineMethod() {
-        if (this.sellIn < 0 && this.sellIn >= -100) {
-            this.increaseQuality();
+        if (this.sellIn <= 600 && this.sellIn >= 300) {
+            this.increaseQualityWine();
         }
-        if (this.sellIn < -100) {
+        if (this.sellIn < 0) {
             this.decreaseQuality();
         }
     }
-
 }
