@@ -63,6 +63,8 @@ public class Item {
         this.defaultMethod();
     }
 
+
+    /*
     public void agingRedWineMethod() {
         if (this.sellIn < 0 && this.sellIn >= -100) {
             this.increaseQuality();
@@ -71,4 +73,6 @@ public class Item {
             this.decreaseQuality();
         }
     }
+
+*/
 }
